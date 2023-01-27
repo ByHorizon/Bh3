@@ -15,6 +15,9 @@ repositories {
 test {
     useJUnitPlatform()
 }
+jar {
+    enabled = false
+}
 
 
 dependencies {
