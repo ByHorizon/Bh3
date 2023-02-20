@@ -20,4 +20,7 @@ notifications:
     recipients:
       - virusetkill@gmail.com
 
+before_install:
+  - chmod +x ./gradlew
+
 
