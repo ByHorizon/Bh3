@@ -30,8 +30,8 @@ before_deploy:
 
 deploy:
   - provider: s3
-    access_key_id: $AKIAT7HEHL36IWJKYW4N
-    secret_access_key: $PCoSK3Yvogcex12N6b6pkiefHCcYpDc1tI/+ZlxY
+    access_key_id: AKIAT7HEHL36IWJKYW4N
+    secret_access_key: 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
 
     bucket: freelec-springboot-byhorizon-build #S3 버킷 이름
     region: ap-northeast-2
