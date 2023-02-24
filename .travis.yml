@@ -29,7 +29,7 @@ before_deploy:
 deploy:
   - provider: s3
     access_key_id: AKIAT7HEHL36IWJKYW4N # Travis repo settings에 설정된 값
-    secret_access_key: PCoSK3Yvogcex12N6b6pkiefHCcYpDc1tI/+ZlxY # Travis repo settings에 설정된 값
+    secret_access_key: PCoSK3Yvogcex12N6b6pkiefHCcYpDc1tI/+ZlxY # Travis repo settings 설정된 값
     bucket: freelec-springboot-build # S3 버킷
     region: ap-northeast-2
     skip_cleanup: true
