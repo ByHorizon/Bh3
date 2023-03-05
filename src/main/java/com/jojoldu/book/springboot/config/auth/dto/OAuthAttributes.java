@@ -44,7 +44,7 @@ public class OAuthAttributes {
                 .name(name)
                 .email(email)
                 .picture(picture)
-                .role(Role.USER)
+                .role(Role.GUEST)
                 .build();
     }
     private static OAuthAttributes ofNaver(String userNameAttributeName, Map<String,Object> attributes){
